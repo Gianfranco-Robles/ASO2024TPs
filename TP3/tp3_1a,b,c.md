@@ -13,6 +13,5 @@ Los tiempos de ejecucion
 
   c) Antes de descomentar las líneas:
         Inconsistente y variable debido a condiciones de carrera. Tiene un tiempo de ejecucion mas rapido.
-
      Después de descomentar las líneas:
         Todavía inconsistente y variable, pero más pronunciado. Tiene un tiempo de ejecucion mas lento debido al bucle adicional en cada operación.

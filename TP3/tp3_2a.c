@@ -51,5 +51,5 @@ int main(int argc, char *argv[])
         void *retval;
         ret = pthread_join(threads[i], &retval); // Espero por la terminación de los hilos que creé
     }
-    pthread_exit(NULL); // Como los hilos que creé ya terminaron de ejecutarse, termino yo también.
+    pthread_exit(NULL); // Como los hilos que creé ya terminaron de ejecutarse, termino yo también
 }
